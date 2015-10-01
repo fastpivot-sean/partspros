@@ -1,0 +1,235 @@
+body #ys_pageBody {
+    width: 998px;
+}
+
+body td, body td a {
+    font-family: Open Sans,arial,verdana,sans-serief !important;
+}
+
+body table.ys_basket thead tr.ys_head th {
+    font-family: Open Sans,arial,verdana,sans-serif;
+    font-size: 14px;
+    padding: 5px 6px;
+}
+
+body table.ys_basket thead th {
+    font: bold 12px open sans,arial,verdana,sans-serif;
+}
+
+body .ys_majorSection h3 {
+    font-size: 14px;
+    font-family: Open Sans,arial,verdana,sans-serif;
+    padding: 5px 6px;
+}
+
+body .ys_majorSection h4 {
+    font: bold 12px open sans,arial,verdana,sans-serif;
+    padding: 3px 6px;
+}
+
+body .ys_majorSection label {
+    font-family: open sans,arial,verdana,sans-serif !important;
+}
+
+body #ys_progress span span.ys_progressLabel {
+    font-family: open sans, arial, sans-serif !important;
+    font-size: 13px;
+    padding: 0 16px 0 19px;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1200px;
+    height: 166px;
+    background: url(/lib/yhst-141660816666872/header-bg-sm.png) 0 0 no-repeat;
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #6d6766;
+    font-size: 16px;
+    border-bottom: 20px solid #174cc0;
+    margin: 0 auto;
+}
+
+#header #logo {
+    margin: 18px 0 0 90px;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    float: left;
+    width: 193px;
+    height: 116px;
+    border: 0;
+}
+
+#header #headerinfo {
+    float: left;
+    height: 166px;
+    width: 810px;
+    margin: 0 0 0 100px;
+}
+
+#header #headerinfo #headerlinks {
+    float: right;
+    margin: 7px 60px 0 0;
+}
+
+#header #headerinfo #headerlinks li {
+    float: left;
+    list-style: outside none none;
+    padding: 0 23px 0 21px;
+    background: url(/lib/yhst-141660816666872/topnav-sep.png) right 50% no-repeat;
+}
+
+#header #headerinfo #headerlinks li#cartlink {
+    background: 0;
+    padding-right: 0px;
+}
+
+#header #headerinfo #headerlinks li a {
+    color: #000;
+    font: bold 18px 'Open Sans Condensed', arial, sans-serif;
+    text-decoration: none;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+#header #headerinfo #headerlinks li#cartlink a {
+    color: #fa6d15;
+}
+
+#header #headerinfo #headerlinks li img {
+    vertical-align: middle;
+    margin: -7px 0 0 8px;
+    border: 0;
+}
+
+#header #storeinfo {
+    color: #fff;
+    float: right;
+    font: bold 19px "Open Sans Condensed",arial,sans-serif;
+    margin: 21px 60px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#header a {
+    color: #FA6D15;
+    text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline
+}
+
+#footer {
+    background: #212020;
+    border-top: 5px solid #023db9;
+    color: #6d6766;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 16px;
+    height: 450px;
+    padding-top: 10px;
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer #footerwrap {
+    width: 906px;
+    margin: 0 auto;
+}
+
+#footer ul#footerlinks {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer ul#footerlinks li {
+    background: url(/lib/yhst-141660816666872/footer-link-sep.gif) right 50% no-repeat;
+    display: inline-block;
+    *display: inline;
+    list-style: outside none none;
+    margin: 0 10px 0 0;
+    padding: 0 13px 0 0;
+    line-height: 5px;
+    *zoom: 1;
+}
+
+#footer ul#footerlinks li.last {
+    background: 0;
+    margin-right: 0px;
+}
+
+#footer ul#footerlinks li a {
+    font: normal 13px 'Open Sans', serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer #footerinfo {
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#footer #footerinfo p {
+    clear: both;
+    color: #a7a7a7;
+    font: 13px "Cabin",arial,sans-serif;
+    margin: 10px 0 20px;
+}
+
+#footer h3 {
+    background: url(/lib/yhst-141660816666872/footer-sep-gray.gif) left bottom repeat-x;
+    color: #a0a0a0;
+    font: bold 15px "Open Sans",arial,sans-serif;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+#footer-left {
+    float: left;
+    margin-right: 30px;
+    width: 295px;
+}
+
+#footer-left a {
+    background: url("/lib/yhst-141660816666872/footer-sep-gray.gif") left bottom repeat-x;
+    display: block;
+    font: 12px "Open Sans",arial,sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #fa6d15;
+    text-decoration: none;
+}
+
+#footer-left a:hover {
+    text-decoration: underline;
+}
+
+#footer-left a img {
+    margin: -1px 10px 0 0;
+    vertical-align: middle;
+}
+
+#footer-mid {
+    float: left;
+    width: 380px;
+}
+
+#footer-right {
+    float: right;
+    padding-top: 38px;
+    width: 152px;
+}
+
+#footer-copy {
+    clear: both;
+    float: right;
+    font: 12px "Open Sans",arial,sans-serif;
+    margin-top: -40px;
+}
