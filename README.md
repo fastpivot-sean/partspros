@@ -1,2 +1,2 @@
 # partspros
-Here be partspros
+If there are any bugs in the code, blame Grant.
